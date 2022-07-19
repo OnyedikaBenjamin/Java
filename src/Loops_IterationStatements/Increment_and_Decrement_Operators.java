@@ -19,7 +19,7 @@ public class Increment_and_Decrement_Operators {
 
 
         int Mango = 10;                          // We declared another local variable "Mango" and assigned its value to 5.
-        Mango+=2;
+        Mango+=2;                               // Instead of saying Mango = Mango + 2
         System.out.println("I have " + Mango + " Mango.");
 
 

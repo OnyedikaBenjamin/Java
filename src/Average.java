@@ -4,30 +4,36 @@ public class Average {
 
     public static void main(String[] args) {
 
-        double grade = 0;
         int noOfStudents =0;
         double totalGrade =0;
+
 
         Scanner input = new Scanner(System.in);
 
         System.out.println("How many students are in the class?");
         noOfStudents = input.nextInt();
 
+
         for (int count = 1;  count <= noOfStudents; count++) {
 
             System.out.println("Enter the grade of student " + count);
-            grade = input.nextDouble();
-            if (grade < 0 || grade > 100) {
+            double grade = input.nextDouble();
+
+            while (grade < 0 || grade > 100) {
                 System.out.println("Please! \n\t Enter a grade from 0 - 100");
+                 grade = input.nextDouble();
             }
 
-                totalGrade = totalGrade + grade;
-            }
+            totalGrade = totalGrade + grade;
+        }
+
 
 
         System.out.println("\nThe total grade is : " + totalGrade);
 
-        double average = totalGrade/noOfStudents;
+
+
+        double average = totalGrade / noOfStudents;
 
         if (average > 100){
             System.out.println("Please check your students input, Average cannot be greater than 100");

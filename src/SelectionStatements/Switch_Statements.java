@@ -1,4 +1,4 @@
-//Switch statements can only be used for simple tasks... you cannot use it for multiple tasks unlike the if else selection statement
+//SelectionStatements.Switch statements can only be used for simple tasks... you cannot use it for multiple tasks unlike the if else selection statement
 
 package SelectionStatements;
 
@@ -21,7 +21,7 @@ public class Switch_Statements {
 
             case (9):
                 System.out.println("A");     // If score is >= 9, print A...
-
+                break;
             case (8):
                 System.out.println("B");     // If score is >= 8 && <9, print B.
                 break;

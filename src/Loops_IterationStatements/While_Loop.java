@@ -13,8 +13,7 @@ public class While_Loop {
 
         while (name.isBlank()) {                              // This is the condition!!
             System.out.println("\n Enter your name : ");
-            name = input.nextLine()
-            ;
+            name = input.nextLine();
         }
         System.out.println("Hello " + name.toUpperCase());   // And if the condition becomes false, it prints this.
     }
