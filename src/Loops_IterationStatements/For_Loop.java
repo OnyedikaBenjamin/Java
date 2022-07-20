@@ -11,8 +11,7 @@ public class For_Loop {
 
         int counter;                                     // i declared my counter
 
-        for (counter = 0;  counter <10; counter++)   // I incremented my counter to start from 0 to 9.
-        {
+        for (counter = 0;  counter <10; counter++){   // I incremented(++) my counter to start from 0 and to end @ <10
             System.out.println(counter);
         }
 

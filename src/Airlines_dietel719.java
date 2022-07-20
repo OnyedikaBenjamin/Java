@@ -33,7 +33,7 @@ public class Airlines_dietel719 {
             else if( number == 2 && Economy <=10 )
             {
 
-                //  planeclass[ Economy++ ] = true;
+                // ben billion remember that....... plane  [Economy++ ] = true;
 
                 System.out.println("You are  assigned to Economy class\t" + Economy);
                 Economy++;
@@ -49,7 +49,7 @@ public class Airlines_dietel719 {
                     x = input.nextLine();
                     if (x.equals("y"))
                     {
-                        //    planeclass[Economy++ ] = true;
+                        //    plane[Economy++ ] = true;
 
                         System.out.print("Seat reserved in Economy class\t" + Economy);
 
@@ -60,14 +60,14 @@ public class Airlines_dietel719 {
             }
 
 
-            else if( number == 2 && Economy >= 10 )
+            else if( number ==2 && Economy >= 10 )
             {
                 System.out.println("Economy class full\t");
                 input.nextLine();
                 if (x.equals("y"))
                 {
 
-                    //    planeclass[ FirstClass++ ] = true;
+                    //    plane  [FirstClass++ ] = true;
 
                     System.out.println("You are  assigned to first class\t"+FirstClass);
 

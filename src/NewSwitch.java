@@ -19,14 +19,27 @@ public class NewSwitch {
          while (input.hasNext()){
                 grades = input.nextInt();
                total += grades;
+               gradeCounter+=1;
 
 
-//               switch (grades)
+              switch (grades){
+                  case 100:
+                  case 90:
+                      System.out.println("A");
+                      break;
 
-
-
-
-
+                  case 75:
+                      System.out.println("B");
+                      break;
+                  case 65:
+                      System.out.println("C");
+                      break;
+                  case 50:
+                      System.out.println("D");
+                      break;
+                  default:
+                      System.out.println("F");
+              }
 
 
         }

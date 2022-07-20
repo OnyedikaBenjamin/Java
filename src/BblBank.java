@@ -36,6 +36,7 @@ public class BblBank {
     }
 
 
+
     public String getName() {
         return name;
     }
@@ -65,8 +66,6 @@ public class BblBank {
         customer1.Withdraw(withdrawalAmount);
 
         System.out.println(customer1.getName() + " balance is : $" + customer1.getBalance());
-
-
 
     }
 

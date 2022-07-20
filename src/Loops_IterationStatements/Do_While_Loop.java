@@ -20,7 +20,7 @@ public class Do_While_Loop {
             name = input.nextLine();
         }
          while (name.equals("ben"));
-        System.out.println("Welcome " + name + "!");   // And when the condition becomes false, it prints this.
+        System.out.println("Welcome " + name.toUpperCase() + "!");   // And when the condition becomes false, it prints this.
 
 
     }
