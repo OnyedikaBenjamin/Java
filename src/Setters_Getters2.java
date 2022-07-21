@@ -15,6 +15,9 @@ public class Setters_Getters2 {
         if (depositAmount > 0.0) {                           // if the deposit is valid,
             this.balance = balance + depositAmount;          // add it to the balance
         }
+        else {
+            System.err.println("Deposit cannot be less than 0");
+        }
     }
     public void setName(String name) {
         this.name = name;
@@ -35,7 +38,7 @@ public class Setters_Getters2 {
 
 
 
-    public static void main(String[] args) {               // here i did not introduced the drivers class, i did both on the same class file.
+    public static void main(String[] args) {               // here I did not introduce the drivers class, I did both on the same class file.
 
         Scanner input = new Scanner(System.in);
 

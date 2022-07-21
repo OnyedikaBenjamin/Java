@@ -28,7 +28,7 @@ public class BblBank {
 
     public void Withdraw (int withdrawAmount){
         if (withdrawAmount > balance){
-            System.out.println("Insufficient funds");
+            System.err.println("Insufficient funds");
         }
         else if (withdrawAmount > 0) {
             this.balance = balance - withdrawAmount;
@@ -66,6 +66,9 @@ public class BblBank {
         customer1.Withdraw(withdrawalAmount);
 
         System.out.println(customer1.getName() + " balance is : $" + customer1.getBalance());
+//----------------------------------------------------------------------------------------------------------------------
+
+//        if we had say customer1.changeTheName("Bola"),  it would have changed the name to bola
 
     }
 

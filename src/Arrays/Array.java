@@ -9,6 +9,7 @@ public class Array {
     public static void main(String[] args) {
 
 
+         // An ARRAY is a tray of variables of the same data type.  i.e  int, string.
         // This is the syntax for initializing an array
 
         String[] names = {"Timi", "Lean", "Benjamin"};   // The number of elements in the braces is the "size of the Array".
