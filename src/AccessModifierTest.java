@@ -1,6 +1,6 @@
 public class AccessModifierTest {
     public static void main(String[] args) {
-        HelloWorld helloWorldObject = new HelloWorld();
-        helloWorldObject.nonStaticTest();
+        Final_and_Static helloWorldObject = new Final_and_Static();
+//        helloWorldObject.nonStaticTest();
     }
 }
