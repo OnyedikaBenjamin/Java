@@ -1,3 +1,12 @@
+
+  //      Create a function that returns true when num1 is equal to num2; otherwise return false.
+//  Examples:
+//  isSumNum(4,8) -> false
+//  isSumNum(2,2) -> true
+
+
+
+
 import java.util.Scanner;
 
 public class EqualityTest {
