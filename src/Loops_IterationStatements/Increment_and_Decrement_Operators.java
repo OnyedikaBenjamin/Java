@@ -32,7 +32,5 @@ public class Increment_and_Decrement_Operators {
         System.out.println("I have " + Orange + " Oranges.");
 
 
-
-
     }
 }

@@ -6,7 +6,11 @@ public class DateImportation {
 
         public static void main(String[] args) {
             LocalDate now =  LocalDate.now();
-            System.out.println(now);   // here we got Today's date
+            long startTime = System.currentTimeMillis();
+
+            System.out.println("startTime is : " + startTime);
+            System.out.println("Today's date is : " + now);   // here we got Today's date
+            System.out.println();
 
             //Aside using the command above to get the current date, we can also use the command "now." to import different things
 

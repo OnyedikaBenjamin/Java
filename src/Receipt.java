@@ -16,7 +16,7 @@ public class Receipt {
     private int quantity;
 
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //-----------------------------------------------------------------------------------------------------------------
 
 
 //    public Receipt(String item, int quantity, double pricePerUnit,double total, double subTotal, double discountPercentage, double discount, String name) {
@@ -115,9 +115,9 @@ public class Receipt {
 
         Receipt receipt1 = new Receipt("soda" , 2 ,10 , 100);
 
-        String addMoreItems = "yes";
-
         ArrayList<Receipt> myReceipts  = new ArrayList<>();
+
+        String addMoreItems = "yes";
 
         while (addMoreItems.equals("yes")) {
 

@@ -1,3 +1,4 @@
+import java.security.SecureRandom;
 import java.util.Scanner;
 
 public class Airlines_dietel719 {
@@ -87,5 +88,26 @@ public class Airlines_dietel719 {
             }
         }
 
+    }
+
+    public static class Random_Integers {
+        public static void main(String[] args) {
+
+            SecureRandom randomNumbers = new SecureRandom();               // Here we created a new Object of Secure Random.
+
+            for (int counter =1; counter <= 20; counter++){              // We asked our counter to generate random numbers 20 times.
+
+                int diceOutcome = 1 + randomNumbers.nextInt(6);  //  We declared our dice outcome to range from 1 to 6, since the index will start from 0 to 5.
+
+                System.out.print(diceOutcome);                      //   Display dice outcomes.
+
+    //     We say that 'if counter is divisible by 5, (of which we know 20 is divisible by 5)...start a new line of output'.
+
+                if (counter % 5 ==0){
+                    System.out.println();
+                }
+
+            }
+        }
     }
 }

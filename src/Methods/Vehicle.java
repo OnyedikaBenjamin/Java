@@ -46,7 +46,7 @@ public class Vehicle {
     }
 
     // Here we will create a 'getter method' for all the instance variables of the class...
-    // Why because we are using the private access modifier, and we cannot access the values of the instance variables directly.
+    // Why because we are using the private access modifier, and we cannot access the values of the instance variables directly
     // from another class like our "VehicleDrive class". instead of using the command i.e vehicle2.name to get the value of the instance variable directly
     // Instead we will now use vehicle2.getName();
 

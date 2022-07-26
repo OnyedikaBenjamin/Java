@@ -54,7 +54,7 @@ public class Switch_Statements {
                 System.out.println("F");
                 break;
             default:
-                System.out.println("Invalid Score \nPlease input value from 1 - 10");   //  Else print Invalid score.
+                System.out.println("Invalid Score \nPlease input value from 0 - 10");   //  Else print Invalid score.
         }
 
     }
@@ -110,10 +110,3 @@ class Switch_Statements2{
         }
     }
 }
-
-
-
-
-
-
-

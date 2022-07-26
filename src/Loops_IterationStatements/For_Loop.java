@@ -9,7 +9,7 @@ public class For_Loop {
         // Initialization phase "counter=0",  Condition phase "counter <10", Increment or Decrement phase "counter++".
 
 
-        int counter;                                     // i declared my counter
+        int counter;                                     // i declared my local variable "Counter".
 
         for (counter = 0;  counter <10; counter++){   // I incremented(++) my counter to start from 0 and to end @ <10
             System.out.println(counter);
@@ -19,7 +19,7 @@ public class For_Loop {
 
 
 
-        int minusCount;                                     // i declared my counter
+        int minusCount;                                     // i declared my local variable "minusCount".
 
         for (minusCount = 7;  minusCount >= 0; minusCount--)   // I decremented my counter to countdown from 7 to 0.
         {

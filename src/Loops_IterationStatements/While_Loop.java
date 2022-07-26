@@ -15,6 +15,6 @@ public class While_Loop {
             System.out.println("\n Enter your name : ");
             name = input.nextLine();
         }
-        System.out.println("Hello " + name.toUpperCase());   // And if the condition becomes false, it prints this.
+        System.out.println("Hello " + name.toUpperCase());   // And if the condition becomes false (else), it prints this.
     }
 }
