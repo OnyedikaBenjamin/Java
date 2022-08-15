@@ -1,3 +1,5 @@
+package _4_MathFunctionsCharactersAndStrings;
+
 import java.util.Scanner;
 
 public class Console_int {

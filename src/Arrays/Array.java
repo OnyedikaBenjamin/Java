@@ -10,7 +10,7 @@ public class Array {
 
 
          // An ARRAY is a tray of variables of the same data type.  i.e  int, string.
-        // This is the syntax for initializing an array
+        // This is the syntax for initializing an array, This is called array initializer.
 
         String[] names = {"Timi", "Lean", "Benjamin"};   // The number of elements in the braces is the "size of the Array".
 

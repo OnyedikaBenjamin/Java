@@ -1,23 +1,26 @@
 public class Multiplication_Table {
 
+/** Main method */
+  public static void main(String[] args) {
+         // Display the table heading
+         System.out.println(" Multiplication Table");
+         // Display the number title
+         System.out.print(" ");
+         for (int j = 1; j <= 9; j++)
+             System.out.print("    " + j);
 
-    public static void main(String[] args) {
+         System.out.println("\n———————————————————————————————————————");
 
-        int row;
-        int column;
-
-        System.out.println("\t\t Multiplication Table");
-
-        for (row = 1; row <= 9; row++) {
-            System.out.print("\t" + row);
-        }
-        System.out.print("\n----------------------------------------\n");
-
-        for (column = 1; column <= 9; column++)
-            System.out.println(column + "|" + "\t" );
-
-
-    }
+         // Display table body
+         for (int i = 1; i <= 9; i++) {
+             System.out.print(i + " | ");
+             for (int j = 1; j <= 9; j++) {
+                 // Display the product and align properly
+                 System.out.printf("%4d", i * j);
+                 }
+             System.out.println();
+             }
+         }
 }
 
 
